@@ -60,7 +60,7 @@
 </template>
 
 <script lang="jsx">
-import mixins  from './utils/emit'
+import mixins  from '../../utils/emit.js'
 const noop = () => []
 
 export default {

@@ -313,8 +313,3 @@
   };
 </script>
 
-<style lang="scss" scoped>
-  /deep/ .el-form-item {
-    margin-bottom: 0;
-  }
-</style>

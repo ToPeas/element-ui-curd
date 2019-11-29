@@ -2,13 +2,23 @@
   "name": "element-common-curd",
   "version": "0.0.1",
   "description": "element-ui components",
-  "main": "index.js",
+  "main": "/dist/index.js",
   "repository": "https://github.com/ToPeas/element-ui-curd",
   "author": "topeas",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  },
   "dependencies": {
     "element-ui": "^2.13.0",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-vue": "^5.1.4",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10"
   }
 }

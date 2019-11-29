@@ -1,4 +1,4 @@
-import Table form './src/components/table.js'
+import Table from './src/components/table/index.js';
 
 
 const install = function (Vue, opts = {}) {
