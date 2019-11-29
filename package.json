@@ -1,0 +1,14 @@
+{
+  "name": "element-common-curd",
+  "version": "0.0.1",
+  "description": "element-ui components",
+  "main": "index.js",
+  "repository": "https://github.com/ToPeas/element-ui-curd",
+  "author": "topeas",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "lodash": "^4.17.15"
+  }
+}
